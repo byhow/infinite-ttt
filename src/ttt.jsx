@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-
+// old react class component tic tac toe logic
 // class Square extends React.Component {
 //     constructor(props) {
 //         super(props);
