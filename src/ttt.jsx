@@ -2,22 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 // old react class component tic tac toe logic
-// class Square extends React.Component {
-//     constructor(props) {
-//         super(props);
-//         this.state = {
-//             value: null,
-//         };
-//     }
-
-//     render() {
-//       return (
-//         <button className="square" onClick={() => this.props.onClick()}>
-//           {this.props.value}
-//         </button>
-//       );
-//     }
-//   }
 
 function Square(props) {
   return (
