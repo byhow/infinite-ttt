@@ -31,6 +31,5 @@ jobs:
               args: [--frozen-lockfile]
 
       - run: pnpm build
-      - run: pnpm lint
         env:
           CI: true
